@@ -21,8 +21,7 @@ module.exports = {
             },
             {
                 test: /\.(gif|png|jpe?g|svg)$/i,
-                use: ['file-loader?hash=sha512&digest=hex&name=assets/images/[hash].[ext]',
-                    'image-webpack-loader?bypassOnDebug']
+                use: ['file-loader?hash=sha512&digest=hex&name=assets/images/[hash].[ext]']
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
