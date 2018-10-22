@@ -4,7 +4,7 @@ const merge = require('webpack-merge');
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
-    entry: ['babel-polyfill', './index.js'],
+    entry: ['@babel/polyfill', './index.js'],
     mode: 'production',
     plugins: [
         new webpack.DefinePlugin({
