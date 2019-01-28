@@ -1,6 +1,6 @@
 @font-face {
-    font-family: quest;
-    src: url(../fonts/quest.ttf);
+    font-family: rustic;
+    src: url(../fonts/rustic.ttf);
 }
 
 body {
@@ -9,14 +9,13 @@ body {
     .app {
         background-color: #000;
         color: #FFF;
-        font-family: quest;
+        font-family: rustic;
         font-size: 30px;
         padding: 50px;
         text-align: center;
 
         .logo {
-            height: 220px;
-            filter: drop-shadow(2px 2px 0px #FFF);
+            height: 175px;
         }
 
         .rotate {
@@ -25,10 +24,10 @@ body {
 
         h1 {
             color: #61DAFB;
-            font-size: 5em;
-            letter-spacing: 5px;
+            font-size: 4em;
+            font-weight: normal;
+            letter-spacing: 2px;
             margin: 0.16em;
-            text-shadow: 2px 2px 0 #FFF;
         }
     }
 }
